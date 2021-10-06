@@ -1,0 +1,154 @@
+.formWrapper {
+  padding: 40px 0px 300px 0px;
+  margin: 40px 0px;
+  background-color: #31a9a9;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 200;
+}
+
+.formHeadingWrap {
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.formHeading {
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.formHeading span {
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.formHeading span::before {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.945);
+  right: 59%;
+  margin-right: 0.6em;
+  content: "";
+  position: absolute;
+  top: calc(8% - (1px / 2));
+  width: 30%;
+  opacity: 0.6;
+}
+
+.formHeading span::after {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.945);
+  left: 59%;
+  margin-left: 0.6em;
+  content: "";
+  position: absolute;
+  top: calc(8% - (1px / 2));
+  width: 30%;
+  opacity: 0.6;
+}
+
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0px;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.formControl {
+  padding-left: 30px;
+}
+
+.formControl label {
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.formInline {
+  position: relative;
+}
+
+.formIcon {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 25px;
+  pointer-events: none;
+  position: absolute;
+  top: 25px;
+  bottom: 0;
+  left: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: visible;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.formInput {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.05);
+  font-weight: 100;
+  color: white;
+  font-size: 18px;
+  max-width: 200px;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 5px 0 35px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid #e5e5e5;
+  transition: 0.2s ease-in-out;
+  transition-property: color, background-color, border;
+  overflow: visible;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.formInput::placeholder {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  color: white;
+  font-size: 18px;
+}
+
+.formSelect {
+  text-align: center;
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.05);
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  max-width: 200px;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 5px 0 35px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid #e5e5e5;
+  transition: 0.2s ease-in-out;
+  transition-property: color, background-color, border;
+  overflow: visible;
+}
+
+.formSelect option {
+  color: #444;
+  font-size: 14px;
+  font-weight: 200;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,50 @@
+.cardsCollection {
+  padding: 4rem;
+  background: #fff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkslategrey;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cardsWrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.cardItems {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .cardsContainer {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cardItems {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cardItem {
+    margin-bottom: 2rem;
+  }
+}
