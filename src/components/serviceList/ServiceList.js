@@ -29,116 +29,58 @@ const ServiceList = () => {
             <span className={styles.serviceItemPara}></span>
           </div>
         </div>
-        <div>
-          <div
-            class="
-                  uk-card uk-card-default uk-card-body uk-box-shadow-medium
-                  color2
-                  impx-feature-item
-                  uk-position-relative
-                "
-          >
-            <h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">
-              Services Priority
-            </h6>
-            <p class="uk-margin-remove impx-text-lighter">
+
+        <div className={styles.serviceItemContainer}>
+          <div className={styles.serviceItemText}>
+            <h6 className={styles.serviceItemHeading}>Services Priority</h6>
+            <p className={styles.serviceItemPara}>
               Cur igitur, cum de re conveniat, melius nos veriusque quam Stoici
               mallem aut expetendam.
             </p>
-            <span
-              data-uk-icon="icon: bell; ratio: 8"
-              class="feature-icon"
-            ></span>
-          </div>
-        </div>
-        <div>
-          <div
-            class="
-                  uk-card uk-card-default uk-card-body uk-box-shadow-medium
-                  color3
-                  impx-feature-item
-                  uk-position-relative
-                "
-          >
-            <h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">
-              Best Facilities
-            </h6>
-            <p class="uk-margin-remove impx-text-lighter">
-              Cur igitur, cum de re conveniat, melius nos veriusque quam Stoici
-              mallem aut expetendam.
-            </p>
-            <span
-              data-uk-icon="icon: star; ratio: 8"
-              class="feature-icon"
-            ></span>
-          </div>
-        </div>
-        <div>
-          <div
-            class="
-                  uk-card uk-card-default uk-card-body uk-box-shadow-medium
-                  color4
-                  impx-feature-item
-                  uk-position-relative
-                "
-          >
-            <h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">
-              Satisfation Guarantee
-            </h6>
-            <p class="uk-margin-remove impx-text-lighter">
-              Cur igitur, cum de re conveniat, melius nos veriusque quam Stoici
-              mallem aut expetendam.
-            </p>
-            <span
-              data-uk-icon="icon: heart; ratio: 8"
-              class="feature-icon"
-            ></span>
+            <span className={styles.serviceItemPara}></span>
           </div>
         </div>
 
-        <div>
-          <div
-            class="
-                  uk-card uk-card-default uk-card-body uk-box-shadow-medium
-                  color5
-                  impx-feature-item
-                  uk-position-relative
-                "
-          >
-            <h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">
-              Beatiful Panorama
-            </h6>
-            <p class="uk-margin-remove impx-text-lighter">
+        <div className={styles.serviceItemContainer}>
+          <div className={styles.serviceItemText}>
+            <h6 className={styles.serviceItemHeading}>Best Facilities</h6>
+            <p className={styles.serviceItemPara}>
               Cur igitur, cum de re conveniat, melius nos veriusque quam Stoici
               mallem aut expetendam.
             </p>
-            <span
-              data-uk-icon="icon: image; ratio: 8"
-              class="feature-icon"
-            ></span>
+            <span className={styles.serviceItemPara}></span>
           </div>
         </div>
 
-        <div>
-          <div
-            class="
-                  uk-card uk-card-default uk-card-body uk-box-shadow-medium
-                  color6
-                  impx-feature-item
-                  uk-position-relative
-                "
-          >
-            <h6 class="uk-margin-remove-top uk-margin-bottom impx-text-white">
-              Enjoy Your Time
-            </h6>
-            <p class="uk-margin-remove impx-text-lighter">
+        <div className={styles.serviceItemContainer}>
+          <div className={styles.serviceItemText}>
+            <h6 className={styles.serviceItemHeading}>Best Value for Family</h6>
+            <p className={styles.serviceItemPara}>
               Cur igitur, cum de re conveniat, melius nos veriusque quam Stoici
               mallem aut expetendam.
             </p>
-            <span
-              data-uk-icon="icon: happy; ratio: 8"
-              class="feature-icon"
-            ></span>
+            <span className={styles.serviceItemPara}></span>
+          </div>
+        </div>
+
+        <div className={styles.serviceItemContainer}>
+          <div className={styles.serviceItemText}>
+            <h6 className={styles.serviceItemHeading}>Best Value for Family</h6>
+            <p className={styles.serviceItemPara}>
+              Cur igitur, cum de re conveniat, melius nos veriusque quam Stoici
+              mallem aut expetendam.
+            </p>
+            <span className={styles.serviceItemPara}></span>
+          </div>
+        </div>
+        <div className={styles.serviceItemContainer}>
+          <div className={styles.serviceItemText}>
+            <h6 className={styles.serviceItemHeading}>Best Value for Family</h6>
+            <p className={styles.serviceItemPara}>
+              Cur igitur, cum de re conveniat, melius nos veriusque quam Stoici
+              mallem aut expetendam.
+            </p>
+            <span className={styles.serviceItemPara}></span>
           </div>
         </div>
       </div>
